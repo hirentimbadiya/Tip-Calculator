@@ -69,6 +69,7 @@ const calculateBill = () => {
     // if amount is 1 or less simply return
     // (a.k.a you can't decrease the number of people to 0 or negative!)
     if(numPeople == 1){
+        alert("you cannot have less than 1 person!!")
         return;
     }
     // decrement the amount of people
