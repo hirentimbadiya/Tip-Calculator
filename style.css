@@ -1,9 +1,10 @@
 * {
-  font-family: "M PLUS Rounded 1c", Avenir Next, Helvetica, sans-serif;
+  font-family: 'M PLUS Rounded 1c', Avenir Next, Helvetica, sans-serif;
   color: white;
 }
+
 body {
-  background-color: #8990ec;
+  background: #8990ec;
 }
 
 .wrapper {
@@ -64,10 +65,11 @@ body {
   display: flex;
   align-items: center;
 }
+
 .splitButton {
-  display: grid;
-  font-size: 0, 8rem;
+  font-size: 0.8rem;
   font-weight: bold;
+  display: grid;
   place-items: center;
 }
 
@@ -82,7 +84,7 @@ body {
 
 #bottom {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
 .totalContainer {
@@ -90,6 +92,7 @@ body {
   flex-direction: column;
   align-items: end;
 }
+
 .total {
   font-size: 2rem;
 }
