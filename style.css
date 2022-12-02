@@ -4,7 +4,7 @@
 }
 
 body {
-  background: #8990ec;
+  background-image: linear-gradient(#8990ec , white);
 }
 
 .wrapper {
@@ -31,7 +31,7 @@ body {
 }
 
 .inputContainer {
-  background: #353959;
+  background-image: linear-gradient( rgb(184, 98, 184) , rgb(92, 92, 173));
   border-radius: 1.4rem;
   padding: 0 0.8rem;
   display: flex;
