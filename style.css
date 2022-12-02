@@ -67,6 +67,7 @@ body {
 }
 
 .splitButton {
+  cursor: pointer;
   font-size: 0.8rem;
   font-weight: bold;
   display: grid;
@@ -95,4 +96,8 @@ body {
 
 .total {
   font-size: 2rem;
+}
+
+.buttonContainer:hover{
+  background-image: linear-gradient(rgb(241, 6, 241), rgb(189, 163, 163));
 }
